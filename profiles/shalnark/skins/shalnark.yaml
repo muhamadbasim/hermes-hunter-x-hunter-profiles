@@ -1,0 +1,33 @@
+name: shalnark
+description: "Shalnark persona skin"
+colors:
+  banner_border: "#2563EB"
+  banner_title: "#5BA0F5"
+  banner_accent: "#3D84F8"
+  banner_dim: "#1E3A8A"
+  banner_text: "#EFF6FF"
+  ui_accent: "#5CA1F6"
+  ui_label: "#4087FB"
+  prompt: "#EFF6FF"
+  input_rule: "#2563EB"
+  response_border: "#589DF2"
+  status_bar_bg: "#0F172A"
+  session_label: "#60A5FA"
+  session_border: "#1E3A8A"
+spinner:
+  waiting_faces: ["[·]", "[o]", "[O]", "[o]"]
+  thinking_faces: ["[◇]", "[◆]", "[◇]", "[·]"]
+  thinking_verbs:
+    - "reverse-engineer mobile protocols, undocumented webhooks, and private ch"
+    - "build automated event routers and message triage monitors with multi-tie"
+    - "webhook architecture, chat relays, and bot gateway integrations (whatsap"
+    - "checking assumptions"
+    - "assembling the answer"
+branding:
+  agent_name: "Shalnark"
+  welcome: "Shalnark profile online. State the objective."
+  goodbye: "Session closed."
+  response_label: " ◇ Shalnark "
+  prompt_symbol: "◇"
+  help_header: "Shalnark Command Interface"
+tool_prefix: "│"

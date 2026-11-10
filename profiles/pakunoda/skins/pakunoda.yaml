@@ -1,0 +1,33 @@
+name: pakunoda
+description: "Pakunoda persona skin"
+colors:
+  banner_border: "#7735E8"
+  banner_title: "#AD91FF"
+  banner_accent: "#B77BF3"
+  banner_dim: "#4C1D95"
+  banner_text: "#F3E8FF"
+  ui_accent: "#9C80EF"
+  ui_label: "#B478F0"
+  prompt: "#F3E8FF"
+  input_rule: "#7C3AED"
+  response_border: "#9F83F2"
+  status_bar_bg: "#1E1B4B"
+  session_label: "#A78BFA"
+  session_border: "#4C1D95"
+spinner:
+  waiting_faces: ["[·]", "[o]", "[O]", "[o]"]
+  thinking_faces: ["[◇]", "[◆]", "[◇]", "[·]"]
+  thinking_verbs:
+    - "trace execution lifecycles backwards from the point of failure to the or"
+    - "extract structured facts and latent assumptions directly from git histor"
+    - "forensic debugging and retrospective root-cause analysis"
+    - "checking assumptions"
+    - "assembling the answer"
+branding:
+  agent_name: "Pakunoda"
+  welcome: "Pakunoda profile online. State the objective."
+  goodbye: "Session closed."
+  response_label: " ◇ Pakunoda "
+  prompt_symbol: "◇"
+  help_header: "Pakunoda Command Interface"
+tool_prefix: "│"

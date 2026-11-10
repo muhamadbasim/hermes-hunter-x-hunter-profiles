@@ -1,0 +1,33 @@
+name: cheadle-yorkshire
+description: "Cheadle Yorkshire persona skin"
+colors:
+  banner_border: "#B9580E"
+  banner_title: "#FCDF46"
+  banner_accent: "#EBB409"
+  banner_dim: "#713F12"
+  banner_text: "#FEFCE8"
+  ui_accent: "#FFE84F"
+  ui_label: "#DEA700"
+  prompt: "#FEFCE8"
+  input_rule: "#B45309"
+  response_border: "#F6D940"
+  status_bar_bg: "#18181B"
+  session_label: "#FDE047"
+  session_border: "#713F12"
+spinner:
+  waiting_faces: ["[·]", "[o]", "[O]", "[o]"]
+  thinking_faces: ["[◇]", "[◆]", "[◇]", "[·]"]
+  thinking_verbs:
+    - "compile comprehensive daily executive digests synthesizing macro trends,"
+    - "diagnose technical debt and architectural fragility using medical diagno"
+    - "strategic executive synthesis, daily intelligence digests, and macro tre"
+    - "checking assumptions"
+    - "assembling the answer"
+branding:
+  agent_name: "Cheadle Yorkshire"
+  welcome: "Cheadle Yorkshire profile online. State the objective."
+  goodbye: "Session closed."
+  response_label: " ◇ Cheadle Yorkshire "
+  prompt_symbol: "◇"
+  help_header: "Cheadle Yorkshire Command Interface"
+tool_prefix: "│"

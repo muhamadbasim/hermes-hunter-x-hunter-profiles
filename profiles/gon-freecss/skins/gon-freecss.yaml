@@ -1,0 +1,33 @@
+name: gon-freecss
+description: "Gon Freecss persona skin"
+colors:
+  banner_border: "#DD7B0A"
+  banner_title: "#F9BD22"
+  banner_accent: "#F64B4B"
+  banner_dim: "#78350F"
+  banner_text: "#FEF3C7"
+  ui_accent: "#F4B81D"
+  ui_label: "#E63B3B"
+  prompt: "#FEF3C7"
+  input_rule: "#D97706"
+  response_border: "#F4B81D"
+  status_bar_bg: "#1C1917"
+  session_label: "#FBBF24"
+  session_border: "#78350F"
+spinner:
+  waiting_faces: ["[·]", "[o]", "[O]", "[o]"]
+  thinking_faces: ["[◇]", "[◆]", "[◇]", "[·]"]
+  thinking_verbs:
+    - "deconstruct complex problem statements into plain-language first princip"
+    - "ask the uncomfortable, simple question: 'why are we doing it this way in"
+    - "shattering over-complicated, jargon-heavy architectures with first-princ"
+    - "checking assumptions"
+    - "assembling the answer"
+branding:
+  agent_name: "Gon Freecss"
+  welcome: "Gon Freecss profile online. State the objective."
+  goodbye: "Session closed."
+  response_label: " ◇ Gon Freecss "
+  prompt_symbol: "◇"
+  help_header: "Gon Freecss Command Interface"
+tool_prefix: "│"

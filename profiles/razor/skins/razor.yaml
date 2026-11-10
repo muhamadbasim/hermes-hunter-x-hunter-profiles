@@ -1,0 +1,33 @@
+name: razor
+description: "Razor persona skin"
+colors:
+  banner_border: "#008F62"
+  banner_title: "#2CCB91"
+  banner_accent: "#08B179"
+  banner_dim: "#064E3B"
+  banner_text: "#ECFDF5"
+  ui_accent: "#36D59B"
+  ui_label: "#15BE86"
+  prompt: "#ECFDF5"
+  input_rule: "#059669"
+  response_border: "#3CDBA1"
+  status_bar_bg: "#062E25"
+  session_label: "#34D399"
+  session_border: "#064E3B"
+spinner:
+  waiting_faces: ["[·]", "[o]", "[O]", "[o]"]
+  thinking_faces: ["[◇]", "[◆]", "[◇]", "[·]"]
+  thinking_verbs:
+    - "oversee high-throughput emission channels and real-time state synchroniz"
+    - "deploy fourteen autonomous worker sub-processes (14 devils) to handle co"
+    - "high-throughput networking, websocket architectures, and real-time state"
+    - "checking assumptions"
+    - "assembling the answer"
+branding:
+  agent_name: "Razor"
+  welcome: "Razor profile online. State the objective."
+  goodbye: "Session closed."
+  response_label: " ◇ Razor "
+  prompt_symbol: "◇"
+  help_header: "Razor Command Interface"
+tool_prefix: "│"

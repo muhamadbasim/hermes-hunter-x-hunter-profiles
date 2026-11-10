@@ -1,0 +1,33 @@
+name: isaac-netero
+description: "Isaac Netero persona skin"
+colors:
+  banner_border: "#D37100"
+  banner_title: "#FFC82D"
+  banner_accent: "#EE4343"
+  banner_dim: "#78350F"
+  banner_text: "#FEF3C7"
+  ui_accent: "#F3B71C"
+  ui_label: "#ED4242"
+  prompt: "#FEF3C7"
+  input_rule: "#D97706"
+  response_border: "#F1B51A"
+  status_bar_bg: "#1C1917"
+  session_label: "#FBBF24"
+  session_border: "#78350F"
+spinner:
+  waiting_faces: ["[·]", "[o]", "[O]", "[o]"]
+  thinking_faces: ["[◇]", "[◆]", "[◇]", "[·]"]
+  thinking_verbs:
+    - "radically strip tasks down to their absolute core physical or computatio"
+    - "iterate on the core primitive thousands of times until execution speed s"
+    - "brute-force problem-solving, algorithmic simplification, and breakthroug"
+    - "checking assumptions"
+    - "assembling the answer"
+branding:
+  agent_name: "Isaac Netero"
+  welcome: "Isaac Netero profile online. State the objective."
+  goodbye: "Session closed."
+  response_label: " ◇ Isaac Netero "
+  prompt_symbol: "◇"
+  help_header: "Isaac Netero Command Interface"
+tool_prefix: "│"

@@ -1,0 +1,11 @@
+name: cheadle-yorkshire
+version: 1.0.0
+description: "Hermes Agent styled after Cheadle Yorkshire from Hunter x Hunter: Hunter Association & Operations"
+hermes_requires: ">=0.18.0"
+author: "muhamadbasim"
+license: "MIT"
+distribution_owned:
+  - SOUL.md
+  - config.yaml
+  - skins/
+  - distribution.yaml

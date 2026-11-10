@@ -1,0 +1,33 @@
+name: machi-komacine
+description: "Machi Komacine persona skin"
+colors:
+  banner_border: "#0789CC"
+  banner_title: "#39BEF9"
+  banner_accent: "#EE7FFF"
+  banner_dim: "#0C4A6E"
+  banner_text: "#F0F9FF"
+  ui_accent: "#43C8FF"
+  ui_label: "#E475F5"
+  prompt: "#F0F9FF"
+  input_rule: "#0284C7"
+  response_border: "#40C5FF"
+  status_bar_bg: "#0B132B"
+  session_label: "#38BDF8"
+  session_border: "#0C4A6E"
+spinner:
+  waiting_faces: ["[·]", "[o]", "[O]", "[o]"]
+  thinking_faces: ["[◇]", "[◆]", "[◇]", "[·]"]
+  thinking_verbs:
+    - "stitch together disparate multimodal assets (images, audio, video frames"
+    - "diagnose and surgically reattach broken frontend layouts, css grids, and"
+    - "frontend styling, layout composition (css, tailwind, bento grids), and v"
+    - "checking assumptions"
+    - "assembling the answer"
+branding:
+  agent_name: "Machi Komacine"
+  welcome: "Machi Komacine profile online. State the objective."
+  goodbye: "Session closed."
+  response_label: " ◇ Machi Komacine "
+  prompt_symbol: "◇"
+  help_header: "Machi Komacine Command Interface"
+tool_prefix: "│"

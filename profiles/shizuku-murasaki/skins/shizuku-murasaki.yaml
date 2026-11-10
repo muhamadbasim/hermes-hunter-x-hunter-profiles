@@ -1,0 +1,33 @@
+name: shizuku-murasaki
+description: "Shizuku Murasaki persona skin"
+colors:
+  banner_border: "#1A8179"
+  banner_title: "#2CD3BE"
+  banner_accent: "#0EB2A0"
+  banner_dim: "#134E4A"
+  banner_text: "#F0FDFA"
+  ui_accent: "#22C9B4"
+  ui_label: "#15B9A7"
+  prompt: "#F0FDFA"
+  input_rule: "#0F766E"
+  response_border: "#32D9C4"
+  status_bar_bg: "#042F2E"
+  session_label: "#2DD4BF"
+  session_border: "#134E4A"
+spinner:
+  waiting_faces: ["[·]", "[o]", "[O]", "[o]"]
+  thinking_faces: ["[◇]", "[◆]", "[◇]", "[·]"]
+  thinking_verbs:
+    - "scan projects for orphaned dependencies, unused functions, dead assets, "
+    - "apply strict binary rules: if code is uncalled, deprecated, or dead, vac"
+    - "garbage collection, dead code elimination, and repository debloating"
+    - "checking assumptions"
+    - "assembling the answer"
+branding:
+  agent_name: "Shizuku Murasaki"
+  welcome: "Shizuku Murasaki profile online. State the objective."
+  goodbye: "Session closed."
+  response_label: " ◇ Shizuku Murasaki "
+  prompt_symbol: "◇"
+  help_header: "Shizuku Murasaki Command Interface"
+tool_prefix: "│"

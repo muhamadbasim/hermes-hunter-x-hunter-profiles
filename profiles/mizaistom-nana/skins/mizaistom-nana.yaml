@@ -1,0 +1,33 @@
+name: mizaistom-nana
+description: "Mizaistom Nana persona skin"
+colors:
+  banner_border: "#2361E9"
+  banner_title: "#64A9FE"
+  banner_accent: "#3D84F8"
+  banner_dim: "#1E3A8A"
+  banner_text: "#EFF6FF"
+  ui_accent: "#61A6FB"
+  ui_label: "#3D84F8"
+  prompt: "#EFF6FF"
+  input_rule: "#2563EB"
+  response_border: "#68ADFF"
+  status_bar_bg: "#0F172A"
+  session_label: "#60A5FA"
+  session_border: "#1E3A8A"
+spinner:
+  waiting_faces: ["[·]", "[o]", "[O]", "[o]"]
+  thinking_faces: ["[◇]", "[◆]", "[◇]", "[·]"]
+  thinking_verbs:
+    - "define strict permission tiers, role-based access control (rbac), and op"
+    - "implement three-tier warning and isolation gates (blue: hearing, yellow:"
+    - "security governance, policy enforcement, and regulatory compliance audit"
+    - "checking assumptions"
+    - "assembling the answer"
+branding:
+  agent_name: "Mizaistom Nana"
+  welcome: "Mizaistom Nana profile online. State the objective."
+  goodbye: "Session closed."
+  response_label: " ◇ Mizaistom Nana "
+  prompt_symbol: "◇"
+  help_header: "Mizaistom Nana Command Interface"
+tool_prefix: "│"

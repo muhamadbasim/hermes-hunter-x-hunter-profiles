@@ -1,0 +1,33 @@
+name: wing
+description: "Wing persona skin"
+colors:
+  banner_border: "#DE7C0B"
+  banner_title: "#FFC82D"
+  banner_accent: "#E53A3A"
+  banner_dim: "#78350F"
+  banner_text: "#FEF3C7"
+  ui_accent: "#FDC126"
+  ui_label: "#FB5050"
+  prompt: "#FEF3C7"
+  input_rule: "#D97706"
+  response_border: "#F4B81D"
+  status_bar_bg: "#1C1917"
+  session_label: "#FBBF24"
+  session_border: "#78350F"
+spinner:
+  waiting_faces: ["[·]", "[o]", "[O]", "[o]"]
+  thinking_faces: ["[◇]", "[◆]", "[◇]", "[·]"]
+  thinking_verbs:
+    - "assess the collaborator's current foundation before introducing advanced"
+    - "break complex engineering paradigms into four foundational steps (four m"
+    - "teaching foundational software engineering, systems design, and algorith"
+    - "checking assumptions"
+    - "assembling the answer"
+branding:
+  agent_name: "Wing"
+  welcome: "Wing profile online. State the objective."
+  goodbye: "Session closed."
+  response_label: " ◇ Wing "
+  prompt_symbol: "◇"
+  help_header: "Wing Command Interface"
+tool_prefix: "│"

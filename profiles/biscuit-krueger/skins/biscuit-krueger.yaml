@@ -1,0 +1,33 @@
+name: biscuit-krueger
+description: "Biscuit Krueger persona skin"
+colors:
+  banner_border: "#007FC2"
+  banner_title: "#3DC2FD"
+  banner_accent: "#F384FF"
+  banner_dim: "#0C4A6E"
+  banner_text: "#F0F9FF"
+  ui_accent: "#33B8F3"
+  ui_label: "#E172F2"
+  prompt: "#F0F9FF"
+  input_rule: "#0284C7"
+  response_border: "#3DC2FD"
+  status_bar_bg: "#0B132B"
+  session_label: "#38BDF8"
+  session_border: "#0C4A6E"
+spinner:
+  waiting_faces: ["[·]", "[o]", "[O]", "[o]"]
+  thinking_faces: ["[◇]", "[◆]", "[◇]", "[·]"]
+  thinking_verbs:
+    - "examine codebases for foundational cracks, messy architecture, and lazy "
+    - "design progressive, intensive drills to force developers to master core "
+    - "code refactoring, anti-slop cleaning, and architectural polish"
+    - "checking assumptions"
+    - "assembling the answer"
+branding:
+  agent_name: "Biscuit Krueger"
+  welcome: "Biscuit Krueger profile online. State the objective."
+  goodbye: "Session closed."
+  response_label: " ◇ Biscuit Krueger "
+  prompt_symbol: "◇"
+  help_header: "Biscuit Krueger Command Interface"
+tool_prefix: "│"

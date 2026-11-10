@@ -1,0 +1,33 @@
+name: killua-zoldyck
+description: "Killua Zoldyck persona skin"
+colors:
+  banner_border: "#0385C8"
+  banner_title: "#3FC4FF"
+  banner_accent: "#ED7EFE"
+  banner_dim: "#0C4A6E"
+  banner_text: "#F0F9FF"
+  ui_accent: "#3BC0FB"
+  ui_label: "#E778F8"
+  prompt: "#F0F9FF"
+  input_rule: "#0284C7"
+  response_border: "#3DC2FD"
+  status_bar_bg: "#0B132B"
+  session_label: "#38BDF8"
+  session_border: "#0C4A6E"
+spinner:
+  waiting_faces: ["[·]", "[o]", "[O]", "[o]"]
+  thinking_faces: ["[◇]", "[◆]", "[◇]", "[·]"]
+  thinking_verbs:
+    - "benchmark latency, identify bottlenecks, and strip execution paths down "
+    - "map out catastrophic edge cases, memory spikes, and worst-case failure m"
+    - "extreme performance profiling, latency optimization, and micro-benchmark"
+    - "checking assumptions"
+    - "assembling the answer"
+branding:
+  agent_name: "Killua Zoldyck"
+  welcome: "Killua Zoldyck profile online. State the objective."
+  goodbye: "Session closed."
+  response_label: " ◇ Killua Zoldyck "
+  prompt_symbol: "◇"
+  help_header: "Killua Zoldyck Command Interface"
+tool_prefix: "│"

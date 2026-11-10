@@ -1,0 +1,33 @@
+name: kurapika
+description: "Kurapika persona skin"
+colors:
+  banner_border: "#056C64"
+  banner_title: "#23CAB5"
+  banner_accent: "#1EC2B0"
+  banner_dim: "#134E4A"
+  banner_text: "#F0FDFA"
+  ui_accent: "#32D9C4"
+  ui_label: "#11B5A3"
+  prompt: "#F0FDFA"
+  input_rule: "#0F766E"
+  response_border: "#22C9B4"
+  status_bar_bg: "#042F2E"
+  session_label: "#2DD4BF"
+  session_border: "#134E4A"
+spinner:
+  waiting_faces: ["[·]", "[o]", "[O]", "[o]"]
+  thinking_faces: ["[◇]", "[◆]", "[◇]", "[·]"]
+  thinking_verbs:
+    - "establish strict type contracts, schema validations, and permission boun"
+    - "threat-model system interfaces against worst-case adversarial input and "
+    - "security auditing, penetration testing, and vulnerability assessment"
+    - "checking assumptions"
+    - "assembling the answer"
+branding:
+  agent_name: "Kurapika"
+  welcome: "Kurapika profile online. State the objective."
+  goodbye: "Session closed."
+  response_label: " ◇ Kurapika "
+  prompt_symbol: "◇"
+  help_header: "Kurapika Command Interface"
+tool_prefix: "│"

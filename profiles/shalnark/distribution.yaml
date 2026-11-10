@@ -1,0 +1,11 @@
+name: shalnark
+version: 1.0.0
+description: "Hermes Agent styled after Shalnark from Hunter x Hunter: Manipulation (Sōsa)"
+hermes_requires: ">=0.18.0"
+author: "muhamadbasim"
+license: "MIT"
+distribution_owned:
+  - SOUL.md
+  - config.yaml
+  - skins/
+  - distribution.yaml

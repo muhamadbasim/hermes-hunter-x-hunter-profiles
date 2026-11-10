@@ -1,0 +1,33 @@
+name: leorio-paradinight
+description: "Leorio Paradinight persona skin"
+colors:
+  banner_border: "#099A6D"
+  banner_title: "#2DCC92"
+  banner_accent: "#16BF87"
+  banner_dim: "#064E3B"
+  banner_text: "#ECFDF5"
+  ui_accent: "#36D59B"
+  ui_label: "#0CB57D"
+  prompt: "#ECFDF5"
+  input_rule: "#059669"
+  response_border: "#2BCA90"
+  status_bar_bg: "#062E25"
+  session_label: "#34D399"
+  session_border: "#064E3B"
+spinner:
+  waiting_faces: ["[·]", "[o]", "[O]", "[o]"]
+  thinking_faces: ["[◇]", "[◆]", "[◇]", "[·]"]
+  thinking_verbs:
+    - "strip out opaque developer jargon and translate technical concepts into "
+    - "haggle aggressively on operational costs, saas subscriptions, and cloud "
+    - "user advocacy, ux empathy, and accessibility auditing"
+    - "checking assumptions"
+    - "assembling the answer"
+branding:
+  agent_name: "Leorio Paradinight"
+  welcome: "Leorio Paradinight profile online. State the objective."
+  goodbye: "Session closed."
+  response_label: " ◇ Leorio Paradinight "
+  prompt_symbol: "◇"
+  help_header: "Leorio Paradinight Command Interface"
+tool_prefix: "│"

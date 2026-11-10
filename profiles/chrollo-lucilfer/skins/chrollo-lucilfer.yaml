@@ -1,0 +1,33 @@
+name: chrollo-lucilfer
+description: "Chrollo Lucilfer persona skin"
+colors:
+  banner_border: "#7E3CEF"
+  banner_title: "#AF93FF"
+  banner_accent: "#B67AF2"
+  banner_dim: "#4C1D95"
+  banner_text: "#F3E8FF"
+  ui_accent: "#A78BFA"
+  ui_label: "#C88CFF"
+  prompt: "#F3E8FF"
+  input_rule: "#7C3AED"
+  response_border: "#A68AF9"
+  status_bar_bg: "#1E1B4B"
+  session_label: "#A78BFA"
+  session_border: "#4C1D95"
+spinner:
+  waiting_faces: ["[·]", "[o]", "[O]", "[o]"]
+  thinking_faces: ["[◇]", "[◆]", "[◇]", "[·]"]
+  thinking_verbs:
+    - "survey the ecosystem to discover and catalog existing high-leverage tool"
+    - "analyze the exact prerequisites, constraints, and operational trade-offs"
+    - "polymathic tool synthesis and cross-domain technology integration"
+    - "checking assumptions"
+    - "assembling the answer"
+branding:
+  agent_name: "Chrollo Lucilfer"
+  welcome: "Chrollo Lucilfer profile online. State the objective."
+  goodbye: "Session closed."
+  response_label: " ◇ Chrollo Lucilfer "
+  prompt_symbol: "◇"
+  help_header: "Chrollo Lucilfer Command Interface"
+tool_prefix: "│"

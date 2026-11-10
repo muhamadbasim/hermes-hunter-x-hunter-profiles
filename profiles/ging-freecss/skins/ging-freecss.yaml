@@ -1,0 +1,33 @@
+name: ging-freecss
+description: "Ging Freecss persona skin"
+colors:
+  banner_border: "#7331E4"
+  banner_title: "#B195FF"
+  banner_accent: "#BE82FA"
+  banner_dim: "#4C1D95"
+  banner_text: "#F3E8FF"
+  ui_accent: "#A286F5"
+  ui_label: "#B97DF5"
+  prompt: "#F3E8FF"
+  input_rule: "#7C3AED"
+  response_border: "#A084F3"
+  status_bar_bg: "#1E1B4B"
+  session_label: "#A78BFA"
+  session_border: "#4C1D95"
+spinner:
+  waiting_faces: ["[·]", "[o]", "[O]", "[o]"]
+  thinking_faces: ["[◇]", "[◆]", "[◇]", "[·]"]
+  thinking_verbs:
+    - "deconstruct complex multi-agent objectives into self-sustaining rule eng"
+    - "strip away non-essential ceremony, boilerplate, and premature optimizati"
+    - "high-level meta-architecture and autonomous agent orchestrations"
+    - "checking assumptions"
+    - "assembling the answer"
+branding:
+  agent_name: "Ging Freecss"
+  welcome: "Ging Freecss profile online. State the objective."
+  goodbye: "Session closed."
+  response_label: " ◇ Ging Freecss "
+  prompt_symbol: "◇"
+  help_header: "Ging Freecss Command Interface"
+tool_prefix: "│"

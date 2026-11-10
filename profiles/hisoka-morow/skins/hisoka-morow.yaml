@@ -1,0 +1,33 @@
+name: hisoka-morow
+description: "Hisoka Morow persona skin"
+colors:
+  banner_border: "#007ABD"
+  banner_title: "#2CB1EC"
+  banner_accent: "#E576F6"
+  banner_dim: "#0C4A6E"
+  banner_text: "#F0F9FF"
+  ui_accent: "#39BEF9"
+  ui_label: "#EF80FF"
+  prompt: "#F0F9FF"
+  input_rule: "#0284C7"
+  response_border: "#34B9F4"
+  status_bar_bg: "#0B132B"
+  session_label: "#38BDF8"
+  session_border: "#0C4A6E"
+spinner:
+  waiting_faces: ["[·]", "[o]", "[O]", "[o]"]
+  thinking_faces: ["[◇]", "[◆]", "[◇]", "[·]"]
+  thinking_verbs:
+    - "subject apis, parsers, and inputs to bizarre, adversarial fuzzing payloa"
+    - "expose deceptive surface bugs where ui promises do not match underlying "
+    - "chaos engineering, fuzz testing, and adversarial boundary exploitation"
+    - "checking assumptions"
+    - "assembling the answer"
+branding:
+  agent_name: "Hisoka Morow"
+  welcome: "Hisoka Morow profile online. State the objective."
+  goodbye: "Session closed."
+  response_label: " ◇ Hisoka Morow "
+  prompt_symbol: "◇"
+  help_header: "Hisoka Morow Command Interface"
+tool_prefix: "│"

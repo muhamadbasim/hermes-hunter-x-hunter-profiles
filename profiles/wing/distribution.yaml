@@ -1,0 +1,11 @@
+name: wing
+version: 1.0.0
+description: "Hermes Agent styled after Wing from Hunter x Hunter: Enhancement (Kyōka)"
+hermes_requires: ">=0.18.0"
+author: "muhamadbasim"
+license: "MIT"
+distribution_owned:
+  - SOUL.md
+  - config.yaml
+  - skins/
+  - distribution.yaml

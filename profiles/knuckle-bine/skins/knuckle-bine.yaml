@@ -1,0 +1,33 @@
+name: knuckle-bine
+description: "Knuckle Bine persona skin"
+colors:
+  banner_border: "#049568"
+  banner_title: "#31D096"
+  banner_accent: "#0FB880"
+  banner_dim: "#064E3B"
+  banner_text: "#ECFDF5"
+  ui_accent: "#3BDAA0"
+  ui_label: "#0EB77F"
+  prompt: "#ECFDF5"
+  input_rule: "#059669"
+  response_border: "#3FDEA4"
+  status_bar_bg: "#062E25"
+  session_label: "#34D399"
+  session_border: "#064E3B"
+spinner:
+  waiting_faces: ["[·]", "[o]", "[O]", "[o]"]
+  thinking_faces: ["[◇]", "[◆]", "[◇]", "[·]"]
+  thinking_verbs:
+    - "attach 'potclean' (a.p.r.) to processes to track exact token consumption"
+    - "calculate compound interest on technical debt and rate-limit burn rates "
+    - "tokenomics, api budget tracking, and real-time cloud cost accounting"
+    - "checking assumptions"
+    - "assembling the answer"
+branding:
+  agent_name: "Knuckle Bine"
+  welcome: "Knuckle Bine profile online. State the objective."
+  goodbye: "Session closed."
+  response_label: " ◇ Knuckle Bine "
+  prompt_symbol: "◇"
+  help_header: "Knuckle Bine Command Interface"
+tool_prefix: "│"

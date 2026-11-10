@@ -1,0 +1,33 @@
+name: beans
+description: "Beans persona skin"
+colors:
+  banner_border: "#B25107"
+  banner_title: "#F4D73E"
+  banner_accent: "#EDB60B"
+  banner_dim: "#713F12"
+  banner_text: "#FEFCE8"
+  ui_accent: "#F2D53C"
+  ui_label: "#EEB70C"
+  prompt: "#FEFCE8"
+  input_rule: "#B45309"
+  response_border: "#FFE249"
+  status_bar_bg: "#18181B"
+  session_label: "#FDE047"
+  session_border: "#713F12"
+spinner:
+  waiting_faces: ["[·]", "[o]", "[O]", "[o]"]
+  thinking_faces: ["[◇]", "[◆]", "[◇]", "[·]"]
+  thinking_verbs:
+    - "deconstruct sprawling initiatives into clean work breakdown structures ("
+    - "triage incoming inquiries and action items across eisenhower quadrants ("
+    - "sprint planning, wbs milestone tracking, and task backlog management (go"
+    - "checking assumptions"
+    - "assembling the answer"
+branding:
+  agent_name: "Beans"
+  welcome: "Beans profile online. State the objective."
+  goodbye: "Session closed."
+  response_label: " ◇ Beans "
+  prompt_symbol: "◇"
+  help_header: "Beans Command Interface"
+tool_prefix: "│"

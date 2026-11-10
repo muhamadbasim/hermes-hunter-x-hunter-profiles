@@ -1,0 +1,33 @@
+name: kite
+description: "Kite persona skin"
+colors:
+  banner_border: "#147B73"
+  banner_title: "#30D7C2"
+  banner_accent: "#08AC9A"
+  banner_dim: "#134E4A"
+  banner_text: "#F0FDFA"
+  ui_accent: "#31D8C3"
+  ui_label: "#0DB19F"
+  prompt: "#F0FDFA"
+  input_rule: "#0F766E"
+  response_border: "#2CD3BE"
+  status_bar_bg: "#042F2E"
+  session_label: "#2DD4BF"
+  session_border: "#134E4A"
+spinner:
+  waiting_faces: ["[·]", "[o]", "[O]", "[o]"]
+  thinking_faces: ["[◇]", "[◆]", "[◇]", "[·]"]
+  thinking_verbs:
+    - "scout the technical terrain and dependencies thoroughly before executing"
+    - "adapt dynamically to randomized or constrained tooling (crazy slots phil"
+    - "field readiness and infrastructure reconnaissance under unknown conditio"
+    - "checking assumptions"
+    - "assembling the answer"
+branding:
+  agent_name: "Kite"
+  welcome: "Kite profile online. State the objective."
+  goodbye: "Session closed."
+  response_label: " ◇ Kite "
+  prompt_symbol: "◇"
+  help_header: "Kite Command Interface"
+tool_prefix: "│"
