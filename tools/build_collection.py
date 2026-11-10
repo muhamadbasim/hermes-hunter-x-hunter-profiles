@@ -336,6 +336,7 @@ def render_manifest(p: dict[str, Any]) -> str:
             "  - SOUL.md",
             "  - config.yaml",
             "  - skins/",
+            "  - assets/",
             "  - distribution.yaml",
             "",
         ]
@@ -507,6 +508,10 @@ def build_to(root: Path) -> list[dict[str, Any]]:
         (target / "config.yaml").write_text(render_config(p), encoding="utf-8")
         (target / "skins" / f"{p['slug']}.yaml").write_text(render_skin(p), encoding="utf-8")
         (target / "README.md").write_text(render_profile_readme(p), encoding="utf-8")
+        asset_src = ROOT / "source" / "assets" / f"{p['slug']}.png"
+        if asset_src.exists():
+            (target / "assets").mkdir(parents=True, exist_ok=True)
+            shutil.copy2(asset_src, target / "assets" / "avatar.png")
     (root / "catalog.json").write_text(json.dumps(personas, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (root / "ROSTER.md").write_text(render_roster(personas), encoding="utf-8")
     return personas

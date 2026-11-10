@@ -8,4 +8,5 @@ distribution_owned:
   - SOUL.md
   - config.yaml
   - skins/
+  - assets/
   - distribution.yaml
